@@ -1,0 +1,45 @@
+* {
+     box-sizing: border-box;
+}
+
+body {
+     background: #000;
+}
+
+/* === VARIABLES === */
+.container {
+     display: grid;
+     min-height: 100vh;
+     place-items: center;
+}
+
+.container h1 {
+     color: #fff;
+     font-family: "Poopins", sans-serif;
+     font-size: 7.3em;
+     position: absolute;
+     line-height: 0;
+}
+
+/* === IMG VARIABLE === */
+.container img {
+     position: absolute;
+     width: 25em;
+     transform: translate(-50%, -50%);
+     left: 50%;
+     top: 50%;
+     animation: spin 8s infinite linear;
+}
+
+/* === SPIN === */
+@keyframes spin {
+     100% {
+          transform: translate(-50%, -50%) rotate(360deg);
+     }
+}
+
+.container h1:nth-child(3) {
+     color: transparent;
+     -webkit-text-stroke: 3px #ffb406;
+
+}
