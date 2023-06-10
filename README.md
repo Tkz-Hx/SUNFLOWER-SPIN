@@ -1,5 +1,5 @@
 # SPINNING-SUNFLOWER 
-Hey Guys its my basic HTML / CSS Project , 
+Hey Guys its basic HTML / CSS Project , 
 its actually (360 degree) Spinning Sunflower!
 Go ahead try this prjoect if want to do .
 
